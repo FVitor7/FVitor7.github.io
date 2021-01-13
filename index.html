@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+        <title>Fábio Vitor | Portfólio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Quicksand&display=swap" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="scripts/main.js"></script>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="top">
+                <img class="pic" src="src/images/my_pic.jpg" alt="profile pic">
+                <div class="top-text">
+                    <p class="name-text">Fábio Vitor</p>
+                    <p class="profession-text">Desenvolvedor Web FullStack | Python & JavaScript</p>
+                    <div class="socials">
+                        <i class="fab fa-github icons" onclick="redirect('https://github.com/fvitor7')"></i>
+                        <i class="fab fa-linkedin icons" onclick="redirect('https://www.linkedin.com/in/fvitor7/')"></i>
+                        <i class="fab fa-stack-overflow icons" onclick="redirect('https://stackoverflow.com/users/12828973/fábio-vitor')"></i>
+                        <!--<i class="fab fa-facebook icons" onclick="redirect('https://www.fb.com/fabiov7/')"></i>-->
+                      
+                      <i class="fas fa-envelope icons" onclick="redirect('mailto: fabvitor2010@gmail.com?&subject=Contato Através do Site')"></i>
+                      <i class="fab fa-youtube icons" onclick="redirect('https://www.youtube.com/c/fabvitor13')"></i>
+                        <i class="fab fa-instagram icons" onclick="redirect('https://www.instagram.com/f_vitor7')"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contents">
+                <div class="about">
+                    <p class="about-me">Sobre Mim</p>
+                    <div class="line"></div>
+                    <p class="about-text">Desenvolvedor FullStack! Experiência em projetos com os frameworks: Flask e Express utilizando bancos SQL e NoSQL. Linguagens utilizadas: <b>Python</b> &amp; <b>JavaScript</b>.
+                    <br> 
+                    <br>
+                      &ldquo;Um dos meus dias mais produtivos foi quando eu joguei fora 1000 linhas de código.&rdquo;
+                      - <b>Ken Thompson</b>
+                      </p>
+                   <br>
+                    <div class="download-wrap">
+                        <a href="https://github.com/FVitor7/">Acessar meu Github<i class="fas fa-cloud-download-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="skills">
+                    <p class="skills-title">Habilidades</p>
+                    <div class="line"></div><br>
+                    <div class="lang" data-aos="zoom-in-up">Python</div>
+                    <div class="lang r-lang" data-aos="zoom-in-up">Flask | Django</div>
+                    <div class="lang" data-aos="zoom-in-up">JavaScript</div>
+                    <div class="lang" data-aos="zoom-in-up">Node.JS | Express</div>
+                    <div class="lang" data-aos="zoom-in-up">React | Next.JS</div>
+                    <div class="lang r-lang" data-aos="zoom-in-up">CSS3 | HTML5</div>
+                    <div class="lang r-lang" data-aos="zoom-in-up">Git | Github</div>
+                    <div class="lang r-lang" data-aos="zoom-in-up">Yarn | NPM</div>
+                </div>
+
+                <p class="my-project-text">Meus Projetos</p>
+                <div class="line" style="width: 210px; margin-bottom: 10px"></div><br>
+                <div class="projects-container" data-aos="zoom-in-left">
+                  <div class="project-pic" style='background-image: url("src/images/horizont.png");  background-position: top;'></div>
+                  <div class="project-desc-container">
+                    <p class="project-name">Site Comercial</p><br>
+                    <p class="project-desc">Construido para o centro de estética horizont. (www.horizontbeleza.com.br) <strong>Utilizado um visual intuitivo e moderno</strong>.</p>
+                    <br>
+                    <div style="display: flex;
+                                                                                        justify-content: space-around;">
+                    
+                      <div class="git-button">
+                        <a style="background: #9d2ecc;" href="https:horizontbeleza.com.br"target="_blank">Acessar Website <i class="fas fa-arrow-up">
+                          </i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="projects-container" data-aos="zoom-in-right">
+                  <div class="project-pic" style='background-image: url("src/images/covid.png");  background-position: top;'></div>
+                  <div class="project-desc-container">
+                    <p class="project-name">Site Com informações sobre o Corona Vírus</p><br>
+                    <p class="project-desc">Simples e objetivo, o site oferece dados confiáveis sobre o avanço do corona virus no Brasil e no mundo. <strong>Linguagens utilizadas: </strong><b>HTML5, CSS3</b> no Frontend & <b>Javascript</b> para consumo e manipulação da API.</p>
+                    <br>
+                    <div style="display: flex;
+                                                    justify-content: space-around;">
+                      <div class="git-button">
+                        <a href="https://github.com/FVitor7/Covid-19-Backend-Frontend/tree/master/Backend/api" target="_blank">Source Code <i class="fas fa-arrow-up"></i></a>
+                      </div>
+                      <div class="git-button">
+                        <a style="background: #9d2ecc;" href="https://fvitor7.github.io/covid19"target=="_blank">Acessar Website<i class="fas fa-arrow-up"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="projects-container" data-aos="zoom-in-left">
+                  <div class="project-pic" style='background-image: url("src/images/api_covid.png");  background-position: top;'></div>
+                  <div class="project-desc-container">
+                    <p class="project-name">API com dados sobre o Corona Vírus</p><br>
+                    <p class="project-desc">Construido com o micro-framework <b>Flask</b>, a API consegue obter dados precisos e essenciais sobre o Covid-19. Linguagem utilizada: <b>Python3</b> para o backend.</p>
+                    <br>
+                    <div style="display: flex;
+                                                                        justify-content: space-around;">
+                      <div class="git-button">
+                        <a href="https://github.com/FVitor7/Covid-19-Backend-Frontend/tree/master/Backend/api" target="_blank">Source Code <i class="fas fa-arrow-up"></i></a>
+                      </div>
+                      <div class="git-button">
+                        <a style="background: #9d2ecc;" href="https://covid19search.herokuapp.com/"target="_blank">Run Code <i class="fas fa-arrow-up">
+                            </i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Start-->
+                   <div class="projects-container" data-aos="zoom-in-right">
+                  <div class="project-pic" style='background-image: url("src/images/pesmaster.png");  background-position: top;'></div>
+                  <div class="project-desc-container">
+                    <p class="project-name">Site com o banco de dados de jogadores do Pes2021 convertidas para o Pes6</p><br>
+                    <p class="project-desc">Site responsivo para exibir todas as funcionalidades da minha API para conexão com o site pesmaster. Construido com o micro-framework <b>Flask</b> para conexão com um banco de dados <B>SQLite</B>, <B>API Rest</B> &amp; <B>Painel ADMIN</B>. Para a construção do Frontend utilizei <b>HTML5, CSS3, BootStrap &amp; JavaScript</b> para consumo da API.</p>
+                    <br>
+                    <div style="display: flex;
+                                                                        justify-content: space-around;">
+                      <div class="git-button">
+                        <a href="https://github.com/FVitor7/PyMaster-Pes2021-stats-to-PES6" target="_blank">Source Code <i class="fas fa-arrow-up"></i></a>
+                      </div>
+                      <div class="git-button">
+                        <a style="background: #9d2ecc;" href="https://pesmaster.herokuapp.com/"target="_blank">Run Code <i class="fas fa-arrow-up">
+                            </i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Fim-->
+                
+                <div class="projects-container" data-aos="zoom-in-left">
+                  <div class="project-pic" style='background-image: url("src/images/tabela_br.PNG");  background-position: top;'></div>
+                  <div class="project-desc-container">
+                    <p class="project-name">Site & API com a tabela do Campeonato Brasileiro.</p><br>
+                    <p class="project-desc">feito com o framework <b>Flask</b>, a API consegue acessar o site da CBF, realizar o scrapy e me retornar em formato JSON a tabela de classificação das equipes que é consumida pela página inicial.</p>
+                    <br>
+                    <div style="display: flex;
+                                                                                        justify-content: space-around;">
+                      <div class="git-button">
+                        <a href="https://github.com/FVitor7/API-do-Campeonato-Brasileiro" target="_blank">Source Code | API <i class="fas fa-arrow-up"></i></a>
+                      </div>
+                      <div class="git-button">
+                        <a style="background: #9d2ecc;" href="https://campbrapi.herokuapp.com/" target="_blank">Run Code <i class="fas fa-arrow-up">
+                          </i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                
+                
+                
+                <div class="projects-container" data-aos="zoom-in-right">
+                  <div class="project-pic" style='background-image: url("src/images/login.jpg");  background-position: top;'></div>
+                  <div class="project-desc-container">
+                    <p class="project-name">Página de login com Autenticação Firebase</p><br>
+                    <p class="project-desc">Página de login com opção de cadastrar usuário. <strong>Utilizando Firebase</strong>. Construido com <b>HTML5 e CSS3</b> para o frontend &amp; <b>JavaScript</b> para o backend.</p>
+                    <br>
+                    <div style="display: flex;
+                                                                                            justify-content: space-around;">
+                   
+                      <div class="git-button">
+                        <a style="background: #9d2ecc;" href="login-firebase/index.html">Acessar Página <i class="fas fa-arrow-up">
+                          </i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="projects-container" data-aos="zoom-in-left">
+                    <div class="project-pic" style='background-image: url("src/images/pesEditor.jpg")'></div>
+                    <div class="project-desc-container">
+                        <p class="project-name">Pes Editor</p><br>
+                        <p class="project-desc">Projeto Open Source Colaborarivo feito em java. <strong>Pes Editor 8.0</strong>, editor de Optionfile do <b>Pro Evolution Soccer 2014.</b> Este é um dos meus projetos prediletos pela complexidade e funções adicionadas ao longo dos anos. </p>
+                        <br>
+                        <div class="git-button">
+                            <a href="https://github.com/FVitor7/PES-EDITOR-7.0-PSD" target="_blank">Source Code <i class="fas fa-arrow-up"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!--
+                <div class="projects-container" data-aos="zoom-in-right">
+                    <div class="project-pic" style='background-image: url(src/images/PSD.jpg);
+                                                    background-position: top;'></div>
+                    <div class="project-desc-container">
+                        <p class="project-name">API Pes Stats Database</p><br>
+                        <p class="project-desc">Wrapper em php do site pesstatsdatabase.com <strong>pesstatsdatabase-API</strong>, Construido com  <b>PHP</b> Acessa o banco de dados de jogadores e implementa ao pes editor.</p>
+                        <br>
+                        <div class="git-button">
+                            <a href="https://github.com/FVitor7/api-pes-stats-database#php-wrapper-for-pesstatsdatabasecom-which-exposes-simple-to-use-get-api" target="_blank">Source Code <i class="fas fa-arrow-up"></i></a>
+                        </div>
+                    </div>
+                    
+                </div>
+                -->
+            </div>
+            <footer>
+                <div>
+                    <p>Feito por: </p>
+                    <p id="copyright" style="padding-bottom: 50px"></p>
+                </div>
+            </footer>
+
+        </div>
+
+    </body>
+</html>
